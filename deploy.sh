@@ -8,4 +8,4 @@ echo 'Approve:'$approve
 
 ./terraform plan
 
-./terraform apply -var 'Approve='$approve
+./terraform apply 'Approve='$approve
