@@ -6,4 +6,4 @@ echo 'test:'$test
 
 ./terraform plan
 
-./terraform apply 'test='$test
+./terraform apply echo 'test='$test
