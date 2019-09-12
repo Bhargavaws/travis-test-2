@@ -6,6 +6,6 @@ echo 'Approve:'$approve
 
 ./terraform init
 
-./terraform init
+./terraform plan
 
 ./terraform apply -var 'Approve='$approve
