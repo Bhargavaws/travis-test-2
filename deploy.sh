@@ -1,11 +1,9 @@
 #!/bin/bash
 
-echo 'Approve:'$approve  
-
-
+echo 'test:'$test  
 
 ./terraform init
 
 ./terraform plan
 
-./terraform apply 'Approve='$approve
+./terraform apply 'test='$test
